@@ -1,4 +1,6 @@
-import { fetchCharactersRequest, fetchCharactersSuccess, fetchCharactersError } from './actions.js';
+import { fetchCharactersRequest, 
+  fetchCharactersSuccess, 
+  fetchCharactersError } from './actions.js';
 
 export const reducer = (state = {}, action) => {
   switch (action.type) {
